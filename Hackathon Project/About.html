@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <!-- Header  -->
+   <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-none">
+  <div class="container w-75">
+    <img src="./images/Logo.jpg" alt="navlogo" width="50px">
+    <a class="navbar-brand" href="#">Collab<span class="text-danger fw-bold">Talk.ai</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link " aria-current="page" href="index.html">Signup</a>
+        <a class="nav-link active text-danger fw-bold" href="About.html">About</a>
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+   </header>
+
+   <!-- Main  -->
+<main>
+
+    <!-- section 1 -->
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-5 mt-1 text-start text-md-end ">
+          <img src="./images/mic.jpg" alt="mic" class="img-fluid me-3" width="190">
+        </div>
+        <div class="col-sm-12 col-md-5 mt-5 px-0 pb-4">
+          <h4 class="fw-bold text-start ms-4 mt-4"><b>Collab<span class="text-danger">Talk.ai</span></b></h4>
+          <h1 class="fw-bold text-start me-3"><b><span class="text-danger">Get</span> Started</b></h1>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col text-center mt-3 ">
+          <textarea name="script" class="rounded-4 " id="script" cols="100" rows="13" placeholder="         Your Script"></textarea>
+        </div>
+      </div> 
+
+      <br>
+      <br>
+
+      
+      <p class="text-center">OR</p>
+      <br>
+      <br>
+    
+      <!-- Form  -->
+      <!-- Row 1a -->
+    <div class="container w-75 px-4">
+      <div class="row">
+    <div class="col px-5">
+      <div class="w-75">
+        <label for="formGroupExampleInput" class="form-label"></label>
+        <input type="text" class="form-control rounded-5" id="formGroupExampleInput" placeholder="your Link">
+      </div>
+    </div>
+
+    <div class="col px-5">
+      <div class="col px-5">
+        <label for="name1">Length of your podcast</label>
+        <input type="text" class="form-control rounded-5 w-100 text-start" id="row1a" placeholder="Minutes" aria-label="First name">
+      </div>
+    </div>
+
+    </div>
+
+      <p class="text-start ms-5 px-5 pt-3">OR</p>
+      
+    <div class="row w-75">
+      <div class="mb-5 w-50 px-5 ms-3">
+        <label for="formGroupExampleInput2" class="form-label"></label>
+        <input type="text" class="form-control rounded-5" id="formGroupExampleInput2" placeholder="your Topic">
+      </div> 
+    </div>
+
+      
+      
+
+      <!-- Row 1b -->
+      <div class="row w-100 mb-4 ">
+        <div class="col px-5">
+          <label for="name1">Speaker1</label>
+          <input type="text" class="form-control rounded-5" id="row1b1" placeholder="Name" aria-label="First name">
+        </div>
+        <div class="col px-5">
+          <label for="name2">Speaker2</label>
+          <input type="text" class="form-control rounded-5" id="row1b2" placeholder="Name" aria-label="Last name">
+        </div>
+        <div class="col px-5">
+          <label for="name3">Speaker3 (Optional) </label>
+          <input type="text" class="form-control rounded-5" id="row1b2" placeholder="Name" aria-label="Last name">
+        </div>
+      </div>
+
+   
+      <!-- Row 2 -->
+      <div class="row w-100 mb-4 ">
+        <div class="col px-5">
+          <label for="name1">Gender (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row2a" placeholder="Female" aria-label="First name">
+        </div>
+        <div class="col px-5">
+          <label for="name2">Gender (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row2b" placeholder="Male" aria-label="Last name">
+        </div>
+        <div class="col px-5">
+          <label for="name3">Gender (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row2c" placeholder="Male" aria-label="Last name">
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="row w-100 mb-4 ">
+        <div class="col px-5">
+          <label for="name1">Age (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row3" placeholder="young" aria-label="First name">
+        </div>
+        <div class="col px-5">
+          <label for="name2">Age (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row3" placeholder="old" aria-label="Last name">
+        </div>
+        <div class="col px-5">
+          <label for="name3">Age (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row3" placeholder="middle aged..." aria-label="Last name">
+        </div>
+      </div>
+
+      <!-- Row 4 -->
+      <div class="row w-100 mb-4 ">
+        <div class="col px-5">
+          <label for="name1">Accent (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row4" placeholder="american" aria-label="First name">
+        </div>
+        <div class="col px-5">
+          <label for="name2">Accent (Optional)</label>
+          <input type="text" class="form-control rounded-5" id="row4" placeholder="australian" aria-label="Last name">
+        </div>
+        <div class="col px-5">
+          <label for="name3">Accent (Optional) </label>
+          <input type="text" class="form-control rounded-5" id="row4" placeholder="british" aria-label="Last name">
+        </div>
+      </div>
+    </div>
+    <div class="container w-75 ">
+    <div class="row">
+      <div class="col ms-0">
+        <img src="./images/men2.jpg" alt="menlogo" width="240px">
+      </div>
+      <div class="col py-5 ms-auto mt-5 ps-0">
+        <p class="w-100 ms-auto px-0"> Generate Conversational podcasts using your<br>favorite medium articles or simply by giving a topic.
+          <button type="button" class="btn btn-danger my-4 px-5 p-3 mx-5 fw-bold">Generate</button>
+        </p>
+      </div>
+    </div>
+  </div>
+    </div>
+</main>
+
+
+<!-- Footer  -->
+<footer></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
