@@ -1,14 +1,21 @@
 #script{
     background: #FDECEC;
     border: none;
-    
+    /* margin-left: 134px;
+    padding-right: 5px; */
+    width: 700px;
 }
 
 #formGroupExampleInput, #row1a, #row1b1, #row1b2, #row1b3, #row2a, #row2b, #row2c, #row3, #row4{
     background: #FDECEC;
     border: none;
+    margin: auto;
 }
 #formGroupExampleInput2{
     background: #FDECEC;
     border: none;
+}
+
+h1{
+    font-size: larger;
 }

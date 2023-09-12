@@ -13,7 +13,10 @@
    <header>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-none">
-  <div class="container w-75">
+      
+  <!-- container 1 -->
+
+  <div class="container">
     <img src="./images/Logo.jpg" alt="navlogo" width="50px">
     <a class="navbar-brand" href="#">Collab<span class="text-danger fw-bold">Talk.ai</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,24 +36,54 @@
    <!-- Main  -->
 <main>
 
-    <!-- section 1 -->
+  <!-- container 2 -->
 
-    <div class="container">
-      <div class="row mt-5">
+  <div class="container w-75">
+    <div class="row mt-5" style="column-gap: 1px;">
+      
+      <div class="col text-center">
+      <img src="./images/mic.jpg" alt="micimg" style="width: 180px;">
+      </div>
+      <div class="col text-start mt-5">
+        <h4 class="fw-bold ms-5"><b>Collab<span class="text-danger">Talk.ai</span></b></h4>
+        <p class="me-5" style="font-size: 50px; font-family: Inter, sans-serif; font-weight: bold;"><b><span class="text-danger">Get</span> Started</b></p></div>
+    </div>
+  <div class="row mt-3">
+    <div class="col-lg-6">
+      <div class="form-group text-center">
+        <textarea class="form-control" rows="13" id="script" placeholder="your script" style="margin-left:154px ;"></textarea>
+      </div>
+  </div>
+
+    </div>
+  </div>
+
+
+
+
+
+    <!-- <div class="container">
+      <div class="row">
         <div class="col-sm-12 col-md-5 mt-1 text-start text-md-end ">
           <img src="./images/mic.jpg" alt="mic" class="img-fluid me-3" width="190">
         </div>
-        <div class="col-sm-12 col-md-5 mt-5 px-0 pb-4">
-          <h4 class="fw-bold text-start ms-4 mt-4"><b>Collab<span class="text-danger">Talk.ai</span></b></h4>
-          <h1 class="fw-bold text-start me-3"><b><span class="text-danger">Get</span> Started</b></h1>
+        <div>
+          <h4 class="fw-bold"><b>Collab<span class="text-danger">Talk.ai</span></b></h4>
+          <p  style="font-size: 50px; font-family: Inter, sans-serif;"><b><span class="text-danger">Get</span> Started</b></p>
         </div>
-      </div>
-    
-      <div class="row">
-        <div class="col text-center mt-3 ">
-          <textarea name="script" class="rounded-4 " id="script" cols="100" rows="13" placeholder="         Your Script"></textarea>
+      </div> -->
+      
+      <!-- <div class="col-lg-6">
+        <div class="form-group">
+          <textarea class="form-control" rows="13" cols="100" id="script" placeholder="your script" style="width: 700px;"></textarea>
         </div>
-      </div> 
+      </div> -->
+
+      <!-- <div class="col-sm-6">
+        <div class="form-group">
+          <textarea name="script" class="rounded-4 form-control" id="script" cols="100" rows="13" placeholder="         Your Script"></textarea>
+        </div>
+      </div>  -->
 
       <br>
       <br>
@@ -61,111 +94,115 @@
       <br>
     
       <!-- Form  -->
-      <!-- Row 1a -->
-    <div class="container w-75 px-4">
-      <div class="row">
-    <div class="col px-5">
-      <div class="w-75">
+      <!-- container 3 -->
+
+    <div class="container w-50">
+      <div class="row w-100 ms-2" style="column-gap: 35px;">
+    <div class="col">
+      <div class="w-100">
         <label for="formGroupExampleInput" class="form-label"></label>
         <input type="text" class="form-control rounded-5" id="formGroupExampleInput" placeholder="your Link">
       </div>
     </div>
 
     <div class="col px-5">
-      <div class="col px-5">
-        <label for="name1">Length of your podcast</label>
+      <div class="col">
+        <label class="ms-2" for="name1">Length of your podcast</label>
         <input type="text" class="form-control rounded-5 w-100 text-start" id="row1a" placeholder="Minutes" aria-label="First name">
       </div>
     </div>
 
     </div>
 
-      <p class="text-start ms-5 px-5 pt-3">OR</p>
+      <p class=" ms-5 mt-3 mb-4"> <br>OR</p>
       
     <div class="row w-75">
-      <div class="mb-5 w-50 px-5 ms-3">
-        <label for="formGroupExampleInput2" class="form-label"></label>
+      <div class="mb-5 w-50 ms-4">
+        <label class="ms-2" for="formGroupExampleInput2" class="form-label"></label>
         <input type="text" class="form-control rounded-5" id="formGroupExampleInput2" placeholder="your Topic">
       </div> 
     </div>
-
+  </div>
       
-      
+      <!-- container 4 -->
 
-      <!-- Row 1b -->
-      <div class="row w-100 mb-4 ">
-        <div class="col px-5">
-          <label for="name1">Speaker1</label>
+    <div class="container w-50">
+      <div class="row w-100 mb-4 ms-2 " style="column-gap: 35px;">
+        <div class="col">
+          <label class="ms-2" for="name1">Speaker1</label>
           <input type="text" class="form-control rounded-5" id="row1b1" placeholder="Name" aria-label="First name">
         </div>
-        <div class="col px-5">
-          <label for="name2">Speaker2</label>
+        <div class="col">
+          <label class="ms-2" for="name2">Speaker2</label>
           <input type="text" class="form-control rounded-5" id="row1b2" placeholder="Name" aria-label="Last name">
         </div>
-        <div class="col px-5">
-          <label for="name3">Speaker3 (Optional) </label>
+        <div class="col">
+          <label class="ms-2" for="name3">Speaker3 (Optional) </label>
           <input type="text" class="form-control rounded-5" id="row1b2" placeholder="Name" aria-label="Last name">
         </div>
       </div>
 
    
       <!-- Row 2 -->
-      <div class="row w-100 mb-4 ">
-        <div class="col px-5">
-          <label for="name1">Gender (Optional)</label>
+      <div class="row w-100 mb-4 ms-2" style="column-gap: 35px;">
+        <div class="col">
+          <label class="ms-2" for="name1">Gender (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row2a" placeholder="Female" aria-label="First name">
         </div>
-        <div class="col px-5">
-          <label for="name2">Gender (Optional)</label>
+        <div class="col">
+          <label class="ms-2" for="name2">Gender (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row2b" placeholder="Male" aria-label="Last name">
         </div>
-        <div class="col px-5">
-          <label for="name3">Gender (Optional)</label>
+        <div class="col">
+          <label class="ms-2" for="name3">Gender (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row2c" placeholder="Male" aria-label="Last name">
         </div>
       </div>
 
       <!-- Row 3 -->
-      <div class="row w-100 mb-4 ">
-        <div class="col px-5">
-          <label for="name1">Age (Optional)</label>
+      <div class="row w-100 mb-4 ms-2" style="column-gap: 35px;">
+        <div class="col ">
+          <label class="ms-2" for="name1">Age (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row3" placeholder="young" aria-label="First name">
         </div>
-        <div class="col px-5">
-          <label for="name2">Age (Optional)</label>
+        <div class="col">
+          <label class="ms-2" for="name2">Age (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row3" placeholder="old" aria-label="Last name">
         </div>
-        <div class="col px-5">
-          <label for="name3">Age (Optional)</label>
+        <div class="col">
+          <label class="ms-2" for="name3">Age (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row3" placeholder="middle aged..." aria-label="Last name">
         </div>
       </div>
 
       <!-- Row 4 -->
-      <div class="row w-100 mb-4 ">
-        <div class="col px-5">
-          <label for="name1">Accent (Optional)</label>
+      <div class="row w-100 mb-4 ms-2" style="column-gap: 35px;">
+        <div class="col">
+          <label class="ms-2" for="name1">Accent (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row4" placeholder="american" aria-label="First name">
         </div>
-        <div class="col px-5">
-          <label for="name2">Accent (Optional)</label>
+        <div class="col">
+          <label class="ms-2" for="name2">Accent (Optional)</label>
           <input type="text" class="form-control rounded-5" id="row4" placeholder="australian" aria-label="Last name">
         </div>
-        <div class="col px-5">
-          <label for="name3">Accent (Optional) </label>
+        <div class="col">
+          <label class="ms-2" for="name3">Accent (Optional) </label>
           <input type="text" class="form-control rounded-5" id="row4" placeholder="british" aria-label="Last name">
         </div>
       </div>
     </div>
-    <div class="container w-75 ">
+    
+
+    <!-- container 5 -->
+
+    <div class="container w-50">
     <div class="row">
-      <div class="col ms-0">
+      <div class="col">
         <img src="./images/men2.jpg" alt="menlogo" width="240px">
       </div>
       <div class="col py-5 ms-auto mt-5 ps-0">
-        <p class="w-100 ms-auto px-0"> Generate Conversational podcasts using your<br>favorite medium articles or simply by giving a topic.
-          <button type="button" class="btn btn-danger my-4 px-5 p-3 mx-5 fw-bold">Generate</button>
-        </p>
+        <p class="me-5">Generate Conversational podcasts using your favorite medium article<br>or simply by giving a topic.</p>
+        <button type="button" class="btn btn-danger mb-5 px-5 p-3 mx-5 fw-bold">Generate</button>
       </div>
     </div>
   </div>
